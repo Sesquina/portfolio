@@ -5,23 +5,19 @@
          url('font/thehistoriademo-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-h1{
-  font-family: 'The Historia Demo', sans-serif;
-
-}
-
 html{
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: #eee;
 }
+
 
 body{
     width: 100%;
@@ -34,6 +30,12 @@ a{
     text-decoration: none;
     color: #eee;
 }
+
+h1{
+  font-family: 'The Historia Demo', sans-serif;
+
+}
+
 section{
     padding: 6rem 0;
 }
@@ -61,7 +63,7 @@ header{
 }
 .section-heading{
     text-align: center;
-    margin-bottom: 10rem;
+    margin-top: 10rem;
 }
 .section-heading h1{
     font-size: 3.5rem;
@@ -92,7 +94,7 @@ header{
     bottom: -1rem;
 }
 .section-heading h6{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 300;
 }
 .has-margin-right{
@@ -122,21 +124,25 @@ header{
 li{
     margin: 0 2rem;
 }
+
 .nav-link{
     font-family:'The Historia Demo', sans-serif;
-    font-size: 5rem;
+    font-size: 4rem;
     padding: 1rem;
 }
+
 .nav-link:hover,
 .nav-link:focus{
     background: linear-gradient(to top, #ffe838, #fd57bf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .top-nav.open{
     top: 0;
     border-radius: initial;
 }
+
 .menu-toggler{
     position: absolute;
     top: 5rem;
@@ -150,9 +156,11 @@ li{
     z-index: 1500;
     transition: transform 650ms ease-out;
 }
+
 .menu-toggler.open{
     transform: rotate(-45deg);
 }
+
 .bar{
     background: linear-gradient(to right, #ffe838, #fd57bf);
     width: 100%;
@@ -237,14 +245,14 @@ li{
     font-size: 5rem;
     transition: color 650ms;
 }
-.fa-linkedin-square:hover{
-    color: #4267b2;
+.fa-linkedin:hover{
+    color: #ffe838;
 }
 .fa-envelope-square:hover{
     color: #38a1f3;
 }
 .fa-github-square:hover{
-    color:#ea4c89;
+    color:#fd57bf;
 }
 
 /*SERVICES*/
@@ -252,7 +260,7 @@ li{
     margin-top: 10rem;
     display: grid;
     grid-template-columns:  repeat(auto-fit, minmax(25rem, 1fr));
-    grid-gap:2.5rem;
+    grid-gap: 2.5rem;
     text-align: center;
 }
 .skill{
@@ -384,7 +392,7 @@ form{
     margin: 0 auto;
 }
 form label{
-    font-size: 1.5rem;
+    font-size: 14px;
 }
 input,
 select,
