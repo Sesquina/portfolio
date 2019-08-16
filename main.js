@@ -1,3 +1,4 @@
+
 const items = document.querySelectorAll('img');
 const itemCount = items.length;
 const nextItem = document.querySelector('.next');
