@@ -18,7 +18,6 @@ html{
     color: #eee;
 }
 
-
 body{
     width: 100%;
     height: 100%;
@@ -495,7 +494,7 @@ input[type="Submit"]:hover{
 /*Media Queries*/
 @media screen and (max-width:768px){
     body{
-        background-color: url("images/sitebg2.jpg") no-repeat center fixed;
+        background: url("images/sitebg2.jpg") no-repeat center fixed;
         background-size: cover;
     }
     .landing-text h1{
