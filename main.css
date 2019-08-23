@@ -298,7 +298,8 @@ li{
 .slider-container{
 	width:440px;
 	margin:40px auto;
-	overflow:auto;
+	overflow: auto;
+  display: flex; 
 }
 
 .slider-inner{
